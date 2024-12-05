@@ -112,64 +112,6 @@ footer{
     width: 100%;
 }
 
-/* Media queries para dispositivos móviles */
-@media (max-width: 768px) {
-
-    .menu-toggle {
-        display: block;
-        z-index: 11;
-    }
-
-    /* El menú de navegación se oculta inicialmente */
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: rgba(179, 178, 178, 0.8);
-        border-top: 1px solid #f8f9fa;
-        padding: 10px 0;
-        color: #000;
-    }
-
-    /* Mostrar el menú cuando el checkbox esté marcado */
-    .menu-checkbox:checked + .menu-toggle + .nav-menu {
-        display: flex;
-    }
-
-    /* El menú en dispositivos móviles se organiza en columna */
-    .nav-menu ul {
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        padding: 0;
-    }
-
-    /* Espaciado entre los elementos del menú */
-    .nav-menu li {
-        margin: 10px 0;
-    }
-
-    /* Estilo de los enlaces en dispositivos móviles */
-    .nav-menu a {
-        padding: 10px 15px;
-        width: 100%;
-        color: #000;
-        background-color: transparent;
-        border: none;
-        font-size: 18px;
-    }
-
-    /* Efecto hover para los enlaces en dispositivos móviles */
-    .nav-menu a:hover {
-        background-color: #51f9ff;
-        color: #000;
-    }
-}
-
-
 /*nav ul li a {
     position: relative;
     display: block;
@@ -276,6 +218,8 @@ footer{
     margin-top: 20px;
     padding: 10px;
     text-align: center;
+
+    ul{margin: 0; padding: 0;}
 }
 
 .contactos{
@@ -292,26 +236,27 @@ footer{
         }
     }   
 }
+
 /*-----------*/
 footer ul li a {
     position: relative;
     display: block;
     padding: 10px;
-  }
-  
-  footer ul li a:hover {
+}
+
+footer ul li a:hover {
     color: #333;
-  }
+}
   
 /*-----------*/
-.inf{
+.inf, .inf-g{
     padding: 30px 50px 30px 50px;
     border-radius: 8px;
 }
 
 
 
-@media(max-width:800px){
+@media(max-width:900px){
     header{
         justify-content: center;
     }
@@ -375,4 +320,77 @@ footer ul li a {
         display: none;
     }  
     
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        z-index: 11;
+    }
+
+    /* El menú de navegación se oculta inicialmente */
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(179, 178, 178, 0.8);
+        border-top: 1px solid #f8f9fa;
+        padding: 10px 0;
+        color: #000;
+    }
+
+    /* Mostrar el menú cuando el checkbox esté marcado */
+    .menu-checkbox:checked + .menu-toggle + .nav-menu {
+        display: flex;
+    }
+
+    /* El menú en dispositivos móviles se organiza en columna */
+    .nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    /* Espaciado entre los elementos del menú */
+    .nav-menu li {
+        margin: 10px 0;
+    }
+
+    /* Estilo de los enlaces en dispositivos móviles */
+    .nav-menu a {
+        padding: 10px 15px;
+        width: 100%;
+        color: #000;
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+    }
+
+    /* Efecto hover para los enlaces en dispositivos móviles */
+    .nav-menu a:hover {
+        background-color: #51f9ff;
+        color: #000;
+    }
+}
+
+@media(max-width: 420px){
+    .inf-g{
+        padding: 2%;
+    }
+}
+
+@media(max-width: 350px){
+    footer{
+        padding: 0;
+    }
+    
+    .inf-g{
+        padding: 0;
+    }
 }
