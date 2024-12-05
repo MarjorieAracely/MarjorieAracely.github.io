@@ -196,7 +196,7 @@ footer{
     margin-inline: 10%;
 }
 .productos{
-    background-color:rgb(1, 7, 19);
+    background-color:rgb(2, 34, 49);
     padding: 50px 50px 50px 50px;
     border-radius: 8px;
     transition: transform 0.5s;
@@ -245,7 +245,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #333;
+    color: #080808;
 }
   
 /*-----------*/
