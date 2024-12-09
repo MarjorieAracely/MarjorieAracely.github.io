@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-color: rgb(68, 23, 82);
+    background-color: rgb(248, 249, 250);
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +84,7 @@ footer{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #fdfbfb;
+    color: #070707;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,13 +170,15 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: row;
-    background-color: rgb(140, 140, 195);
+    background-color: rgb(116, 233, 126);
     border-radius: 50px;
     h2{
+        color: white;
        margin-top: 40px;
     }   
     
     p{
+        color: white;
         text-align: justify;
         padding: 20px; 
     }   
@@ -186,13 +188,15 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: row;
-    background-color: rgb(166, 166, 201);
+    background-color: rgb(116, 233, 126);
     border-radius: 50px;
     h2{
         margin-top: 40px;
+        color: white;
     }   
     
     p{
+        color: white;
         text-align: justify;
         padding: 20px; 
     }   
@@ -204,8 +208,8 @@ footer{
   
   
 .barra{
-    background-color: rgb(92, 18, 88);
-    color: #fdfbfb;
+    background-color:white;
+    color: #030303;
     text-align: center;
     margin-top: 20px;
     padding: 20px;
@@ -219,7 +223,7 @@ footer{
     margin-inline: 10%;
 }
 .productos{
-    background-color:rgb(117, 76, 115);
+    background-color:rgb(255, 253, 255);
     padding: 20px 20px 20px 20px;
     border-radius: 8px;
     transition: transform 0.5s;
@@ -241,7 +245,7 @@ footer{
     margin-top: 20px;
     padding: 10px;
     text-align: center;
-    background-color: #170327;
+    background-color: rgb(116, 233, 126);
     ul{margin: 0; padding: 0;}
 }
 
@@ -255,7 +259,7 @@ footer{
 
         a{
             text-decoration: none;
-            color: rgb(255, 255, 255);
+            color: rgb(19, 18, 18);
         }
     }   
 }
