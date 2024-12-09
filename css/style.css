@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(44, 127, 136);
+    background-color: rgb(84, 24, 102);
     display: flex;
     justify-content: space-between;
 }
@@ -24,9 +24,12 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-grow: 1;
+    flex-grow: 2;
 }
-
+.img{
+    margin: 10px;
+    border-radius: 20px;
+}
 .menu-checkbox {
     display: none;
 }
@@ -182,7 +185,7 @@ footer{
   
   
 .barra{
-    background-color: rgb(142, 200, 207);
+    background-color: rgb(126, 47, 122);
     text-align: center;
     margin-top: 20px;
     padding: 20px;
@@ -196,8 +199,8 @@ footer{
     margin-inline: 10%;
 }
 .productos{
-    background-color:rgb(2, 34, 49);
-    padding: 50px 50px 50px 50px;
+    background-color:rgb(84, 13, 105);
+    padding: 10px 10px 10px 10px;
     border-radius: 8px;
     transition: transform 0.5s;
 }
@@ -211,14 +214,14 @@ footer{
 }
 
 .productos div:hover{
-    transform: scale(1.3);
+    transform: scale(1.0);
 }
 
 footer{
     margin-top: 20px;
     padding: 10px;
     text-align: center;
-
+    background-color: #170327;
     ul{margin: 0; padding: 0;}
 }
 
@@ -338,7 +341,7 @@ footer ul li a:hover {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: rgba(179, 178, 178, 0.8);
+        background-color: rgba(178, 178, 179, 0.8);
         border-top: 1px solid #f8f9fa;
         padding: 10px 0;
         color: #000;
