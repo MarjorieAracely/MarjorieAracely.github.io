@@ -1,5 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 header{
-    background-color: rgb(84, 24, 102);
+    background-color: rgb(68, 23, 82);
     display: flex;
     justify-content: space-between;
 }
@@ -143,7 +148,20 @@ footer{
 
 
 .carrusel{
-    margin-top: 10px;
+    img{
+        filter: brightness(0.5);
+    } 
+    h5{
+        color: #8fe0e6;
+        
+        font-size: 50px;
+        /*-webkit-text-stroke: black 1px;*/
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p{
+        color: #edeff3;
+        font-size: 30px;
+    }
 }
 
 .mision{
@@ -185,7 +203,8 @@ footer{
   
   
 .barra{
-    background-color: rgb(126, 47, 122);
+    background-color: rgb(92, 18, 88);
+    color: #fdfbfb;
     text-align: center;
     margin-top: 20px;
     padding: 20px;
@@ -199,8 +218,8 @@ footer{
     margin-inline: 10%;
 }
 .productos{
-    background-color:rgb(84, 13, 105);
-    padding: 10px 10px 10px 10px;
+    background-color:rgb(117, 76, 115);
+    padding: 20px 20px 20px 20px;
     border-radius: 8px;
     transition: transform 0.5s;
 }
@@ -248,7 +267,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #080808;
+    color: #b726d4;
 }
   
 /*-----------*/
