@@ -4,14 +4,11 @@ body{
 }
 
 header{
-    background-color: rgb(248, 249, 250);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
-footer{
-    background-color: rgb(98, 99, 106);
-    color: blanchedalmond;
-}
+
 
 *,*::after,*::before{
     box-sizing: border-box;
@@ -84,7 +81,7 @@ footer{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #070707;
+    color: #0e0d7e;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
@@ -94,9 +91,9 @@ footer{
 
 /* Efecto hover sobre los enlaces */
 .nav-menu a:hover {
-    color: #000;
+    color: #63d886;
     transform: scale(1.1);
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #63d886;
 }
 
 /* Estilo para el enlace activo */
@@ -104,6 +101,7 @@ footer{
     background-color: #28a745;
     color: #fff;
 }
+
 
 /* Subrayado animado en los enlaces */
 /*.nav-menu a::after {
@@ -153,7 +151,7 @@ footer{
         filter: brightness(0.5);
     } 
     h5{
-        color: #8fe0e6;
+        color: rgb(23, 23, 214);
         
         font-size: 50px;
         /*-webkit-text-stroke: black 1px;*/
@@ -163,6 +161,9 @@ footer{
         color: #edeff3;
         font-size: 30px;
     }
+}
+.carrusel2{
+    margin: 30px;
 }
 
 .mision{
@@ -213,6 +214,13 @@ footer{
     text-align: center;
     margin-top: 20px;
     padding: 20px;
+    h2{
+        text-decoration: underline;
+      }
+      
+      h2:hover {
+        text-decoration: none;
+      }
 }
 
 .items{
@@ -253,13 +261,16 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    h3{
+        color: #11138f;
+    }
     li{
         list-style-type: none;
         padding: 1rem;
 
         a{
             text-decoration: none;
-            color: rgb(19, 18, 18);
+            color: rgb(15, 15, 15);
         }
     }   
 }
@@ -272,13 +283,13 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #b726d4;
+    color: #f7f2f8;
 }
   
 /*-----------*/
 .inf, .inf-g{
-    padding: 30px 50px 30px 50px;
-    border-radius: 8px;
+    padding: 30px 50px 20px 50px;
+
 }
 
 
