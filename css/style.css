@@ -349,6 +349,9 @@ footer ul li a:hover {
     }
     .carrusel2{
         margin: 8px;
+        img{
+            height: 55vh;
+        }
     }
     .productos{
         width: 100%; 
