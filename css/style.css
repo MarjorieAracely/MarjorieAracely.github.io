@@ -163,8 +163,9 @@ header{
     }
 }
 .carrusel2{
-    margin: 30px;
-}
+    width: 100%;
+    border-radius: 8px;
+}  
 
 .carrusel-tiktok{
     display: flex;
@@ -175,11 +176,10 @@ header{
 
     .sec-tiktok{
         background-color: gray;
-    }
-
-    div{
-        height: 100%;
-        width: auto;
+        width: 100%;
+        video{
+            width: 100%;
+        }
     }
 }
 
@@ -191,7 +191,7 @@ header{
     background-color: rgb(116, 233, 126);
     border-radius: 50px;
     h2{
-        color: white;
+        color: rgb(8, 8, 8);
        margin-top: 40px;
     }   
     
@@ -210,7 +210,7 @@ header{
     border-radius: 50px;
     h2{
         margin-top: 40px;
-        color: white;
+        color: rgb(5, 5, 5);
     }   
     
     p{
@@ -227,7 +227,7 @@ header{
   
 .barra{
     background-color:white;
-    color: #030303;
+    color: #070707;
     text-align: center;
     margin-top: 20px;
     padding: 20px;
@@ -292,6 +292,7 @@ footer{
     }   
 }
 
+
 /*-----------*/
 footer ul li a {
     position: relative;
@@ -303,13 +304,17 @@ footer ul li a:hover {
     color: #f7f2f8;
 }
   
-/*-----------*/
-.inf, .inf-g{
-    padding: 30px 50px 20px 50px;
-
+.carrusel-tiktok{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    margin-left: 20px;
+    align-items: center;
 }
 
-
+.carrusel-tiktok .carrusel2 .carousel-item{
+    height: 450px;
+}
 
 @media(max-width:900px){
     header{
@@ -433,6 +438,11 @@ footer ul li a:hover {
     .nav-menu a:hover {
         background-color: #51f9ff;
         color: #000;
+    }
+
+    .carrusel-tiktok{
+        flex-direction: column;
+        margin-top: 10px;
     }
 }
 
